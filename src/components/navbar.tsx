@@ -85,12 +85,12 @@ const Navbar = () => {
                 className="text-gray-600 hover:text-gray-700 transition"
               />
             </a>
-            <div className="md:hidden flex items-center">
+            <div className="md:hidden flex items-center rounded-full p-1.5 justify-center border border-gray-600 hover:border-gray-700 transition">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className={scrolled ? "text-gray-700" : "text-white"}
+                className={"text-gray-700"}
               >
-                {isOpen ? <X size={26} /> : <Menu size={26} />}
+                {isOpen ? <X size={22} /> : <Menu size={22} />}
               </button>
             </div>
           </div>
