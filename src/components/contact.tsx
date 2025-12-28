@@ -78,15 +78,14 @@ export default function Contact() {
               <div>
                 <h4 className="text-lg font-bold text-gray-900 mb-2">الهاتف</h4>
                 <a
-                  href="tel:+218912135345"
+                  href="tel:+218930626594"
                   dir="ltr"
                   className="text-gray-600 hover:text-[#C8102E] transition"
                 >
-                  +218 91 213 5345
+                  +218 93 062 6594
                 </a>
               </div>
             </div>
-
             <div className="flex gap-5 items-start">
               <Mail className="w-7 h-7 text-[#C8102E] shrink-0" />
               <div>
@@ -101,7 +100,6 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-
             <div className="flex gap-5 items-start">
               <MapPin className="w-7 h-7 text-[#C8102E] shrink-0" />
               <div>
@@ -109,14 +107,13 @@ export default function Contact() {
                   العنوان
                 </h4>
                 <p className="text-gray-600">
-                  السكيرات - طريق الفوار - مصراتة | ليبيا
+                  شارع سعدون السويحلي - مبنى رقم 29 - مصراته | ليبيا
                 </p>
               </div>
             </div>
-
             <div className="rounded-2xl overflow-hidden h-[300px] border border-black/5">
               <iframe
-                src="https://maps.google.com/maps?q=32.35530691070605,15.124854267526304&z=15&output=embed"
+                src="https://maps.google.com/maps?q=32.372304035269394,15.096769267527003&z=15&output=embed"
                 className="w-full h-full"
                 loading="lazy"
               ></iframe>

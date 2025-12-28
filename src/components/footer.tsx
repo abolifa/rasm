@@ -72,11 +72,11 @@ const Footer = () => {
               <div className="flex items-start gap-3 justify-start">
                 <Phone className="w-5 h-5 text-[#C8102E]" />
                 <a
-                  href="tel:+218912135345"
+                  href="tel:+218930626594"
                   dir="ltr"
                   className="text-gray-600 hover:text-[#C8102E] transition"
                 >
-                  +218 91 213 5345
+                  +218 93 062 6594
                 </a>
               </div>
 
@@ -93,7 +93,7 @@ const Footer = () => {
               <div className="flex items-start gap-3 justify-start">
                 <MapPin className="w-5 h-5 text-[#C8102E]" />
                 <span className="text-gray-600">
-                  السكيرات - طريق الفوار - مصراتة
+                  شارع سعدون السويحلي - مبنى رقم 29 - مصراته | ليبيا
                 </span>
               </div>
             </div>
